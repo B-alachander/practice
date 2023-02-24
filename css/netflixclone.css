@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(79, 78, 78);
+}
+header {
+    width: 100%;
+   min-height: 100%;    
+    background-image: radial-gradient(rgba(113, 104, 104, 0.285), rgba(0, 0, 0, 0.967)), url(../Newfolder/bg.jpg); 
+    background-size: cover;
+    margin-bottom: 0.5rem;
+}
+
+.first{
+    display:inline-flex;
+}
+.first img{
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 1.5rem;
+    width: 12vw;
+    height: 4vw;
+    position: absolute;
+}
+  .form #ii{
+    margin-left: 80rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: transparent;
+    color: whitesmoke;
+    border:1.5px solid white;
+    padding: 5px;
+}
+#ii .opt{
+    background-color: rgb(159, 158, 158);
+    font-size: 0.9rem;
+}
+.first .log{
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    
+}
+ .second{
+    width: 50%;
+    min-height: 75%;
+    color: rgba(255, 255, 255, 0.868);
+    margin: 10rem auto;
+    /* margin-bottom: 5rem; */
+} 
+.head{
+    text-align: center;
+    margin-bottom: 1rem;  
+}
+h1{
+    font-size: 5rem;
+}
+#em{
+    margin-left: 5rem;
+    /* border-radius: 2rem; */
+    font-size:1rem;
+    padding: 0.5rem;
+}
+.second tr{
+    margin-bottom: 103rem;
+}
+.part2{
+margin: top 5px; ;
+border: 2px solid;
+width: 100%;
+min-height: 500px;
+background-color: rgb(10, 10, 10);
+}
+.remove{
+    opacity: 0;
+}
+.content{
+    max-width: 100%;
+   max-height: 500px;
+    position: relative;
+    background-image: url(../images/tv.png);
+    background-repeat: no-repeat;
+    background-size: cover
+    
+}
+.id{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    right: 10px;
+}
