@@ -1,0 +1,22 @@
+#nav{
+    background-color: rgb(193, 193, 234);
+    width: auto;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+margin-bottom: 1rem;
+}
+
+ul{
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+}
