@@ -1,10 +1,19 @@
-import React from "react"
+import React from 'react'
+import Couser from './props/Couser';
+
+
+
 function App() {
-    return(
+  return (
     <>
-    <div>App</div>
-    <h1>helloo!!!!</h1>
+   <Couser   data={{
+    name:"JAVA full stack",
+    duration:"2 months",
+    available:true
+   }} />
     </>
-    )
+  )
 }
+
 export default App
+
